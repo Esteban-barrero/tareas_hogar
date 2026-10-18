@@ -1,0 +1,26 @@
+# Archivos temporales de Office (Word, Excel, PowerPoint)
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.doc
+
+# Archivos temporales en general
+*.tmp
+*.bak
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Entornos virtuales y dependencias (para cuando se agregue codigo)
+node_modules/
+build/
+.dart_tool/
+.packages
